@@ -6,6 +6,7 @@ ayant la structure suivante:
 
 ```yaml
 jeton_api: ####
+<<<<<<< HEAD
 data_path: https://minio.lab.sspcloud.fr/lgaliana/ensae-reproductibilite/data/raw/data.csv
 ```
 
@@ -14,3 +15,7 @@ Pour installer les dépendances
 ```bash
 pip install -r requirements.txt
 ```
+=======
+data_path: ####
+```
+>>>>>>> ecce133e9506042f7e86ef081792939762d0ee44
