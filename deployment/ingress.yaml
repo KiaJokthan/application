@@ -9,7 +9,7 @@ spec:
   - hosts:
     - jokthantitanic.lab.sspcloud.fr
   rules:
-  - host: jokthantitanic.lab.sspcloud.fr
+  - host:
     http:
       paths:
       - path: /
@@ -17,5 +17,5 @@ spec:
         backend:
           service:
             name: titanic-service
-            port:
+           jokthantitanic.lab.sspcloud.fr port:
               number: 80
