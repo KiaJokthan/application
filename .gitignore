@@ -2,3 +2,5 @@ config.yaml
 __pycache__/
 data/**/*.csv
 titanic/
+model.joblib
+

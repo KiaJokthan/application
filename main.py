@@ -14,6 +14,7 @@ from sklearn.model_selection import train_test_split
 from src.pipeline.build_pipeline import create_pipeline
 from src.models.train_evaluate import evaluate_model
 
+import joblib
 
 # ENVIRONMENT CONFIGURATION ---------------------------
 
@@ -49,6 +50,8 @@ p.mkdir(parents=True, exist_ok=True)
 
 TrainingData = pd.read_csv(data_path)
 
+
+
 y = TrainingData["Survived"]
 X = TrainingData.drop("Survived", axis="columns")
 
@@ -81,3 +84,7 @@ logger.success(f"{score:.1%} de bonnes réponses sur les données de test pour v
 logger.debug(20 * "-")
 logger.info("Matrice de confusion")
 logger.debug(matrix)
+
+#Export modele
+
+joblib.dump(pipe, "model.joblib")

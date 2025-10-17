@@ -13,3 +13,9 @@
 2025-02-28 15:39 - INFO - [[43  8]
  [ 7 32]]
 >>>>>>> ecce133e9506042f7e86ef081792939762d0ee44
+2025-10-17 12:02:34.023 | WARNING  | __main__:<module>:43 - API token has not been configured
+2025-10-17 12:02:35.100 | SUCCESS  | __main__:<module>:83 - 83.3% de bonnes réponses sur les données de test pour validation
+2025-10-17 12:02:35.100 | DEBUG    | __main__:<module>:84 - --------------------
+2025-10-17 12:02:35.100 | INFO     | __main__:<module>:85 - Matrice de confusion
+2025-10-17 12:02:35.100 | DEBUG    | __main__:<module>:86 - [[59  7]
+ [ 8 16]]
